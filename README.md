@@ -5,3 +5,22 @@ This project explores **Random Forest models** for biome classification and envi
 The project includes binary and multi-class biome classification, with careful training-data selection and feature analysis. The multi-class model achieved approximately **85% global accuracy**, while a model trained on a less representative region achieved **54%**, demonstrating the importance of data selection.
 
 Random Forest regression was also used to predict environmental variables, achieving approximately **96% accuracy** for vegetation carbon pool prediction and an **MSE of 0.0005** for NPP prediction.
+
+## Environment Setup
+
+This project uses **Conda** for environment and package management. The required packages and versions are specified in `environment.yml`.
+
+### 1. Create the environment
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+Create the Conda environment using the provided `environment.yml` file:
+
+```bash
+conda env create -f environment.yml
+```
